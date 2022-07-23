@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 #import PIL.Image
 from PIL import Image
 #Read both images 
-im=Image.open('D:/Laptop backup 2/course work2/course works2/Data Science program/files/i1.jpg')
-im2=Image.open('D:/Laptop backup 2/course work2/course works2/Data Science program/files/i2.jpg')
+im=Image.open('D:/i1.jpg')
+im2=Image.open('D:/i2.jpg')
 
 #Change the images to arrays
 im=np.asarray(im)
